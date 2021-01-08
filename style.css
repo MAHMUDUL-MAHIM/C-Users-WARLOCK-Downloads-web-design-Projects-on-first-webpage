@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    
+}
+.high-light{
+    color: #6C63FF;
+}
+.half-width{
+    width: 50%;
+    float: right;
+}
+.content{
+    margin: 74px 0px;
+    text-align: initial;
+}
+img{
+    
+    width: 100%;
+}
+.imgsec{
+    margin: -54px 0px
+}
+.menu{
+    text-align: left;
+    padding: 20px 0px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    padding: 0 6px;
+    color: #6C63FF;
+}
+.hero h1{
+    font-size: 40px;
+}
+.hero p{
+    text-align: justify;
+    line-height: 22px;
+    margin: 20px 0;
+}
+.hero .button{
+    background-color: #6C63FF ;
+    color: ivory;
+    font-size: 22px;
+    padding: 12px 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+}
