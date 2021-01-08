@@ -14,7 +14,25 @@ a{
     font-size: 16px;
     
 }
-.high-light{
+.container .portfoli:hover{
+    background-color: rgba(218, 178, 185, .5); 
+    padding: 12px 16px;
+    border-radius: 10px;
+    transition: .8s;
+}
+.container .about:hover{
+    background-color: rgba(218, 178, 185, .5); 
+    padding: 12px 16px;
+    border-radius: 10px;
+    transition: .8s;
+}
+.container .contact:hover{
+    background-color: rgba(218, 178, 185, .5); 
+    padding: 12px 16px;
+    border-radius: 10px;
+    transition: .8s;
+}
+    .high-light{
     color: #6C63FF;
 }
 .half-width{
@@ -30,7 +48,7 @@ img{
     width: 100%;
 }
 .imgsec{
-    margin: -54px 0px
+    margin: -46px 0px
 }
 .menu{
     text-align: left;
@@ -42,7 +60,7 @@ img{
 }
 .menu a{
     padding: 0 6px;
-    color: #6C63FF;
+    color: black;
 }
 .hero h1{
     font-size: 40px;
