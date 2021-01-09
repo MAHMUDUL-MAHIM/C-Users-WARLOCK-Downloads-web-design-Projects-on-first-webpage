@@ -103,19 +103,19 @@ h4{
     height: 312px;
 }
 .work{
-    padding-bottom: 100px;
+    padding-bottom: 90px;
+    overflow: hidden;
 }
 .work .blogs-1{
     width: 30%;
+    margin: 0 1%;
     float: left;
-
 }
 .work .blogs-2{
     width: 30%;
     float: left;
+    margin: 0 1%;
     overflow: hidden;
-    margin: 0 2%;
-    
 }
 .work .blogs-3{
     width: 30%;
@@ -127,4 +127,11 @@ h4{
     margin: 20px 0;
     line-height: 18px;
     font-size: 12px;
+}
+.work .box-shadow{
+    box-shadow: 6px -2px 7px rgba(67, 65, 71, 0.336);
+    border-radius: 5px;
+}
+.box-shadow:hover{
+    transform: scaleZ(10);
 }
