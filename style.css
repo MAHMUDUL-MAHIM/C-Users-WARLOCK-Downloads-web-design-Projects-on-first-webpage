@@ -42,21 +42,21 @@ a {
     background-color: rgba(218, 178, 185, .5);
     padding: 12px 16px;
     border-radius: 15px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .container .about:hover {
     background-color: rgba(218, 178, 185, .5);
     padding: 12px 16px;
     border-radius: 15px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .container .contact:hover {
     background-color: rgba(218, 178, 185, .5);
     padding: 12px 16px;
     border-radius: 15px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .part-1 {
@@ -125,7 +125,7 @@ h4 {
     height: 317px;
 }
 
-.work .container{
+.work .container {
     padding-bottom: 80px;
     overflow: hidden;
 }
@@ -158,12 +158,14 @@ h4 {
     line-height: 18px;
     font-size: 12px;
 }
-.work .box-shadow{
+
+.work .box-shadow {
     box-shadow: 5px 5px 10px rgb(59, 59, 65);
     border-radius: 5px;
     transition: .5s;
 }
-.box-shadow:hover{
+
+.box-shadow:hover {
     transform: scale(.9);
     cursor: pointer;
 }

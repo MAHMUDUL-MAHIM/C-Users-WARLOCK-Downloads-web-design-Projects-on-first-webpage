@@ -1,44 +1,62 @@
-/* Style inputs with type="text", select elements and textareas */
-
-input[type=text], select, textarea {
-  width: 100%;
-  /* Full width */
-  padding: 12px;
-  /* Some padding */
-  border: 1px solid #ccc;
-  /* Gray border */
-  border-radius: 4px;
-  /* Rounded borders */
-  box-sizing: border-box;
-  /* Make sure that padding and width stays in place */
-  margin-top: 6px;
-  /* Add a top margin */
-  margin-bottom: 16px;
-  /* Bottom margin */
-  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+|* {
+  margin: 0;
+  padding: 0;
 }
 
-/* Style the submit button with a specific background color etc */
+h1 {
+  color: #6C63FF;
+  margin-bottom: 30px;
+}
 
-input[type=submit] {
-  background-color: #6C63FF;
-  color: white;
-  padding: 12px 20px;
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(img/hand.jpg);
+  background-size: cover;
+  background-position: auto;
+}
+
+.signup {
+  width: 300px;
+  box-shadow: 0 0 3px 0;
+  background: white;
+  padding: 20px;
+  margin: 5% auto 0;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.input-box {
+  width: 100%;
+  margin: 10px -10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #999;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px -10px;
+  border-radius: 20px;
   border: none;
-  border-radius: 4px;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  background-color: #6C63FF;
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-
-input[type=submit]:hover {
-  background-color: #6C63FF;
+.facebook {
+  background-color: rgba(50, 50, 133, 0.808);
 }
 
-/* Add a background color and some padding around the form */
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.signup p a {
+  color: #6C63FF;
 }

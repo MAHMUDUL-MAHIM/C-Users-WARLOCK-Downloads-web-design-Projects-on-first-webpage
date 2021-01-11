@@ -5,33 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style2.css">
-  <title>Registration</title>
+  <title>Sign up form</title>
 </head>
 
 <body>
-  <div class="container">
-    <form action="thanks.html">
-
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-      <input type="submit" value="Submit">
-
+  <div class="signup">
+    <h1>Sign Up Now</h1>
+    <form>
+      <input type="email" class="input-box" placeholder="Your Email" required>
+      <input type="password" class="input-box" placeholder="Your Password" required>
+      <p><span><input type="checkbox"></span> I agree to the terms of services</p>
+      <button type="button" class="sign-btn"><a href="thanks.html">Sign Up</a></button>
+      <hr>
+      <p>Or</p>
+      <button type="button" class="facebook">Log in with Facebook</button>
+      <p>Do you have an account? <a href="#">Sign in</a></p>
     </form>
   </div>
+
+
+
+
+
 </body>
 
 </html>
